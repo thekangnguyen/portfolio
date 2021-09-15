@@ -1,0 +1,138 @@
+.top-container {
+  background-color: #FAF1E6;
+  position: relative;
+  padding-top: 80px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skills {
+  background-color: #FAF1E6;
+  height: 700px;
+}
+
+.photo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.music {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hello-description {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.footer-link {
+  margin: auto 40px;
+}
+
+.bottom-container {
+  margin-top: 40px;
+  background-color: #FAF1E6;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #402218;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+a:hover {
+  color: #cf785b;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #402218;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 30px;
+  color: #402218;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #402218;
+}
+
+p {
+  line-height: 2;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 60px auto 70px;
+  line-height: 2;
+}
+.copyright{
+  font-size: 0.75rem;
+  color: #cf785b;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #8f6659;
+  background-image: -webkit-linear-gradient(top, #8f6659, #260e06);
+  background-image: -moz-linear-gradient(top, #8f6659, #260e06);
+  background-image: -ms-linear-gradient(top, #8f6659, #260e06);
+  background-image: -o-linear-gradient(top, #8f6659, #260e06);
+  background-image: linear-gradient(to bottom, #8f6659, #260e06);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #cf785b;
+  background-image: -webkit-linear-gradient(top, #cf785b, #823d26);
+  background-image: -moz-linear-gradient(top, #cf785b, #823d26);
+  background-image: -ms-linear-gradient(top, #cf785b, #823d26);
+  background-image: -o-linear-gradient(top, #cf785b, #823d26);
+  background-image: linear-gradient(to bottom, #cf785b, #823d26);
+  text-decoration: none;
+}
